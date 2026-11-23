@@ -2,8 +2,8 @@
   "name": "angular4-paystack",
   "version": "3.1.5",
   "peerDependencies": {
-    "@angular/common": "8.0.0 - 21.x.x",
-    "@angular/core": "8.0.0 - 21.x.x"
+    "@angular/common": "^22.3.0",
+    "@angular/core": "^22.3.0"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
     "payment"
   ],
   "dependencies": {
-    "tslib": "^2.3.0"
+    "rxjs": "^6.5.3",
+    "tslib": "^2.9.1"
   },
   "sideEffects": false
 }
